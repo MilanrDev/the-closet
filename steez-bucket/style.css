@@ -1,3 +1,5 @@
+
+/* Start index html css */
 *{
   box-sizing: border-box;
 }
@@ -11,15 +13,16 @@ body{
 
 }
 input{
-  width: 30%;
-  height: 25%;
-  margin-left: 35%;
-  margin-right: 2%;
-  margin-bottom: 5%;
-  padding:10px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-right: 3%;
+  padding:20px;
   background: transparent;
-  border: none;
+  border: white solid 4px;
   background:rgba(234,182,154,0.4);
+  font-size: 1.2rem;
+  text-align: center;
 
 }
 
@@ -27,11 +30,50 @@ h1{
   text-align: center;
   color: white;
   font-size: 4rem;
+  font-size:;
+}
+
+.anima {
+  font-weight: 200;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.anima .letter {
+  display: inline-block;
+  line-height: 1em;
 }
 
 p{
   color:white;
   text-align: center;
+}
+
+
+
+button{
+  /* margin-right:%; */
+  height:40px;
+  width:5%;
+  color:rgba(234,182,154,255);
+  background:rgba(234,182,154,0.4);
+  border: 3px solid #eab69a;
+  border-radius: 25%;
+  font-size: 1rem;
+
+}
+
+/* end ndex html */
+
+/* start closet html  */
+.back{
+  padding: 0px;
+  margin: 0px;
+  background-image: url('images/back.png');
+  background-repeat: no-repeat;
+  background-size: 100% 1000px;
+
 }
 
 section{
@@ -58,13 +100,16 @@ section{
   max-height: 100px;
 }
 
-button{
+.style{
   /* margin-right:%; */
-  height:30px;
+  margin-left:50%;
+  margin-bottom:10%;
+  height:40px;
   width:5%;
-  color:rgba(234,182,154,255);
+  color:white;
   background:rgba(234,182,154,0.4);
-  border: 3px solid #eab69a;
+  border: 3px solid white;
   border-radius: 25%;
+  font-size: 1rem;
 
-}
+/* end style html */
